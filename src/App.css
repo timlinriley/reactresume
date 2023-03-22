@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -36,3 +37,65 @@
     transform: rotate(360deg);
   }
 }
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5em;
+  background-color:rgb(44, 43, 43);
+  height: 4vh;
+  padding: 2em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.nav a:hover{
+  text-decoration: underline;
+}
+
+h3{
+  text-align: left;
+  padding-left: 2em;
+  color: white;
+  
+}
+ul{
+  text-align: left;
+  padding-left: 3em;
+  color: white;
+}
+
+.sum{
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 2em;
+}
+.listMain{
+  display: flex;
+  justify-content: center;
+}
+
+.list1, .list2, .list3{
+  padding: 2em;
+}
+
+p{
+  text-align: left;
+  padding-left: 2em;
+  color:white;
+}
+
+h1{
+  color:white;
+}
+h2{
+  color: white;
+ }
+
+ h2 a {
+  color: white;
+ }
